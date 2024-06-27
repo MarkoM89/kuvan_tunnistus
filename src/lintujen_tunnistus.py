@@ -3,7 +3,7 @@ from IPython.display import Image  # for displaying images
 import os 
 import random
 import shutil
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import _split
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from tqdm import tqdm
