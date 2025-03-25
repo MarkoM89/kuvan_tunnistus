@@ -21,11 +21,11 @@ model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 #ESP-EYE:n kuvavirran linkki tai verkkokamera, kun lähde on 0
 #source = 'rtsp://192.168.0.12:8554/mjpeg/1'
-source = "0"
+#source = "0"
 
 
 #Koekuva linja-autosta ja ihmisistä, jolla voi kokeilla YOLOv8:n omia malleja
-#source = "bus.jpg"
+source = "bus.jpg"
 
 #Kaksi koekuvaa linnuista, joilla voi kokeilla mallin toimivuutta
 #source = "bird-2698953_1280.jpg"
@@ -36,7 +36,7 @@ source = "0"
 # Tulokset, näytäarvo (show) näyttää lähteen samalla, kun siitä tutkitaan kohteita, muuten kuvaa tai kuvavirtaa ei näytetä
 # Viive on kuvia varten, jotta tuloksen ehtii nähdä, kun näytäarvo on tosi
 results = model.predict(source, show = True)
-#time.sleep(5)
+time.sleep(5)
 
 #YOLOv8 tulostukset kehotteeseen
 print(results)
