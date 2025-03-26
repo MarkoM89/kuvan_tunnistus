@@ -4,16 +4,16 @@ import time
 #mallit------------------------------------------------------------------------------
 #Yolov8:an mukana tulevat mallit, jolla voi eri kohteita tunnistaa yleistasolla------------------------------------------------------------------------------
 
-#model = YOLO("yolov8n.pt")  # YOLOv8:n oma esiharjoitettu malli
+#model = YOLO("yolov8_mallit/yolov8n.pt")  # YOLOv8:n oma esiharjoitettu malli
 
-#model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
+model = YOLO("yolov8_mallit/yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 
 #lintumallit lintulajien tunnistukseen------------------------------------------------------------------------------
 
 #model = YOLO("runs/detect/train6_yksi_kierros/weights/best.pt") # nanomalli, joka on kesken ja yksi kerta käyty aineisto läpi. Epoch-arvo on 100
 
-model = YOLO("runs/detect/train6/weights/best.pt") # nanomalli, joka on kesken ja 10 kertaa käyty aineisto läpi. Epoch-arvo on 100
+#model = YOLO("runs/detect/train6/weights/best.pt") # nanomalli, joka on kesken ja 10 kertaa käyty aineisto läpi. Epoch-arvo on 100
 
 #model = YOLO("runs/detect/train7/weights/best.pt") # keskikokoinen malli, joka on valmis ja 2 kertaa käyty aineisto läpi. Epoch-arvo on 2
 
