@@ -1,11 +1,15 @@
 from ultralytics import YOLO
 import time
 
-# mallit------------------------------------------------------------------------------
+#mallit------------------------------------------------------------------------------
+#Yolov8:an mukana tulevat mallit, jolla voi eri kohteita tunnistaa yleistasolla------------------------------------------------------------------------------
 
 #model = YOLO("yolov8n.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
+
+
+#lintumallit lintulajien tunnistukseen------------------------------------------------------------------------------
 
 #model = YOLO("runs/detect/train6_yksi_kierros/weights/best.pt") # nanomalli, joka on kesken ja yksi kerta käyty aineisto läpi. Epoch-arvo on 100
 

@@ -2,8 +2,11 @@
 
 ## Mistä on kyse?
 
-Opinnäytetyön projekti. Kuvatunnistus.py tunnistaa kuvavirrasta kohteita hyödyntäen YOLOv8-konenäköä. Source-muuttujaan syötetään rtsp-linkki, josta kuvavirta tulee.
+Ohjelma tunnistaa lintuja tai muita yleisiä kohteita hyödyntämällä YOLO-konenäköä.
 
-Muut tiedostot lintujen_tunnistus.py, label.py sekä nayta_kuva.py ovat tulevaa ominaisuutta varten, jossa voidaan tunnistaa lintuja hyödyntämällä seuraavaa aineistoa:
+Lähdekansiossa (src) on Kuvatunnistus.py, jossa valitaan kommenttien mukaan, että mitä mallia käytetään lintujen tunnistamiseen vai tunnistetaanko muita yleisiä kohteita.
+Tämän jälkeen valitaan lähde, joita on kolme ohjelman mukana olevaa koekuvaa, oletusverkkokamera tai rtsp-linkki.
 
-https://hiwhy.io/bird-species-detection-using-deep-learning-and-yolov8?x-host=hiwhy.io
+Sen lisäksi ohjelmalla voi itse harjoittaa mallin ja myös jatkaa sitä, jos on YOLOv8-tukeva aineisto käytössä tiedostoilla Mallin_jatkaminen_aineistolla sekä Mallin_jatkaminen_aineistolla. 
+
+

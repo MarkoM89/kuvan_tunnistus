@@ -7,4 +7,4 @@ model = YOLO("yolov8m.pt")  # lataa esiopetettu malli (suositeltu opetusvaiheese
 
 
 # Aineisto
-results = model.train(data="C:\\Users\Marko\Desktop\metropolia koulu\Opinnäytetyö\Bird species.v3i.yolov8\data.yaml", epochs=100) #epoch-perusarvo on 100
+results = model.train(data="C:\\Users\kayttaja\Bird species.v3i.yolov8\data.yaml", epochs=100) #epoch-perusarvo on 100
