@@ -6,14 +6,14 @@ import time
 
 #model = YOLO("yolov8n.pt")  # YOLOv8:n oma esiharjoitettu malli
 
-model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
+#model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 
 #lintumallit lintulajien tunnistukseen------------------------------------------------------------------------------
 
 #model = YOLO("runs/detect/train6_yksi_kierros/weights/best.pt") # nanomalli, joka on kesken ja yksi kerta käyty aineisto läpi. Epoch-arvo on 100
 
-#model = YOLO("runs/detect/train6/weights/best.pt") # nanomalli, joka on kesken ja 10 kertaa käyty aineisto läpi. Epoch-arvo on 100
+model = YOLO("runs/detect/train6/weights/best.pt") # nanomalli, joka on kesken ja 10 kertaa käyty aineisto läpi. Epoch-arvo on 100
 
 #model = YOLO("runs/detect/train7/weights/best.pt") # keskikokoinen malli, joka on valmis ja 2 kertaa käyty aineisto läpi. Epoch-arvo on 2
 
@@ -31,11 +31,11 @@ model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 
 #Koekuva linja-autosta ja ihmisistä, jolla voi kokeilla YOLOv8:n omia malleja
-source = "bus.jpg"
+#source = "koekuvat/bus.jpg"
 
 #Kaksi koekuvaa linnuista, joilla voi kokeilla lintumallien toimivuutta
-#source = "bird-2698953_1280.jpg"
-#source = "chipping-sparrow-7989209_1280.jpg"
+#source = "koekuvat/bird-2698953_1280.jpg"
+source = "koekuvat/chipping-sparrow-7989209_1280.jpg"
 
 
 
