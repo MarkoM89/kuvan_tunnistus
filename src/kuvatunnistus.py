@@ -17,6 +17,8 @@ model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 
 
 
+
+
 #lähteet------------------------------------------------------------------------------
 
 #ESP-EYE:n kuvavirran linkki tai verkkokamera, kun lähde on 0
@@ -27,11 +29,14 @@ model = YOLO("yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
 #Koekuva linja-autosta ja ihmisistä, jolla voi kokeilla YOLOv8:n omia malleja
 source = "bus.jpg"
 
-#Kaksi koekuvaa linnuista, joilla voi kokeilla mallin toimivuutta
+#Kaksi koekuvaa linnuista, joilla voi kokeilla lintumallien toimivuutta
 #source = "bird-2698953_1280.jpg"
 #source = "chipping-sparrow-7989209_1280.jpg"
 
 
+
+
+#Tulostukset ja viiveet------------------------------------------------------------------------------
 
 # Tulokset, näytäarvo (show) näyttää lähteen samalla, kun siitä tutkitaan kohteita, muuten kuvaa tai kuvavirtaa ei näytetä
 # Viive on kuvia varten, jotta tuloksen ehtii nähdä, kun näytäarvo on tosi
