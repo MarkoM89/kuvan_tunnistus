@@ -10,3 +10,7 @@ Tämän jälkeen valitaan lähde, joita on kolme projektin mukana olevaa koekuva
 Sen lisäksi ohjelmalla voi itse harjoittaa mallin ja myös jatkaa sitä, jos on YOLOv8-tukeva aineisto käytössä tiedostoilla Mallin_jatkaminen_aineistolla sekä Mallin_jatkaminen_aineistolla. 
 
 
+## Tulevia muutoksia
+
+Parantaa käyttöliittymää ja rakentaa lopuksi graafinen käyttöliittymä.
+Parantaa Mallin_harjoittaminen_aineistolla sekä Mallin_jatkaminen_aineistolla olevia tiedostopolkuja
