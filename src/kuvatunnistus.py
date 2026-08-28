@@ -17,10 +17,10 @@ def malli():
             + "4: Lintumalli, joka on harjoitettu keskikokoisella mallilla\n"))
 
     if toiminto == 1:
-        model = YOLO("yolov8_mallit/yolov8n.pt")  # YOLOv8:n oma esiharjoitettu malli
+        model = YOLO("yolov8_mallit/yolov8n.pt")  # YOLOv8:n esiharjoitettu malli
 
     elif toiminto == 2:
-        model = YOLO("yolov8_mallit/yolov8m.pt")  # YOLOv8:n oma esiharjoitettu malli
+        model = YOLO("yolov8_mallit/yolov8m.pt")  # YOLOv8:n esiharjoitettu malli
 
     elif toiminto == 3:
         #lintumallit lintulajien tunnistukseen------------------------------------------------------------------------------
